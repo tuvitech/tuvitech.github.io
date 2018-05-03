@@ -1,5 +1,5 @@
-$(document).ready(function(){
-  $(#sendbtn).click(function(){
-    
-  });
-});
+// $(document).ready(function(){
+//   $(#sendbtn).click(function(){
+//     $.ajax
+//   });
+// });

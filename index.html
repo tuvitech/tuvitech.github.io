@@ -9,10 +9,12 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+<link href="css/app.css" rel="stylesheet">
 </head>
 <body>
   <!-- <h1>Contact Us</h1> -->
-  <section id="form-contact">
+  <section id="form-contact" class=" border border-danger">
           <!-- Grid row -->
           <!-- <div class="row mt-5"> -->
 
@@ -24,11 +26,11 @@
                 <!--input id must be honeypot or else it wont work-->
                   <label class="sr-only">Keep this field blank</label>
                   <input id="honeypot" type="text" name="honeypot" value="" />
-                  <p class="h4 text-center mb-4">Write to us</p>
+                  <p class="h3 text-center mb-4 bg-primary text-light" id="write-header">Write to us</p>
 
                   <!-- Material input text -->
                   <div class="md-form">
-                      <i class="fa fa-user prefix grey-text"></i>
+                      <i class="fa fa-user prefix grey-text pull-left"></i>
                       <input type="text" id="materialFormContactNameEx" class="form-control" name="name">
                       <label for="materialFormContactNameEx" class="">Your name</label>
                   </div>
@@ -74,10 +76,10 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <!-- <script type="text/javascript" src="js/app.js"></script> -->
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
     <script data-cfasync="false" type="text/javascript"
 src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

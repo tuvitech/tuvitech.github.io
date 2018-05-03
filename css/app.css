@@ -5,10 +5,27 @@
     transition: color .2s;
     top: .25rem;
     font-size: 1.75rem;
+    left: 0;
 }
 
 .md-form .prefix~input, .md-form .prefix~textarea {
     margin-left: 2.5rem;
     width: -webkit-calc(100% - 2.5rem);
     width: calc(100% - 2.5rem);
+}
+
+#honeypot {
+  display: none;
+}
+
+#form-contact {
+  /*display: table-cell;*/
+  width: 50%;
+  margin: 3% 25%;
+  padding: 5%;
+}
+
+#form-contact form {
+  /*height: 300px;
+  width: 400px;*/
 }

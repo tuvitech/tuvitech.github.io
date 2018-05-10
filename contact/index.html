@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<title>Welcome to Tuvitech</title>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+<link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+  <!-- <h1>Contact Us</h1> -->
+  <section id="form-contact" class=" border border-danger">
+          <!-- Grid row -->
+          <!-- <div class="row mt-5"> -->
+
+            <!-- Grid column -->
+            <!-- <div class="col-md-6 mb-4"> -->
+
+              <!-- Material form contact -->
+              <form class="mx-xl-5" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbycgOlJlk6sU1xdU79DnVajTy28BLl4vnOeXLyAGcq5qB9N4v-q/exec">
+                <!--input id must be honeypot or else it wont work-->
+                  <label class="sr-only">Keep this field blank</label>
+                  <input id="honeypot" type="text" name="honeypot" value="" />
+                  <p class="h3 text-center mb-4 bg-primary text-light" id="write-header">Write to us</p>
+
+                  <!-- Material input text -->
+                  <div class="md-form">
+                      <i class="fa fa-user prefix grey-text pull-left"></i>
+                      <input type="text" id="materialFormContactNameEx" class="form-control" name="name">
+                      <label for="materialFormContactNameEx" class="">Your name</label>
+                  </div>
+
+                  <!-- Material input email -->
+                  <div class="md-form">
+                      <i class="fa fa-envelope prefix grey-text"></i>
+                      <input type="email" id="materialFormContactEmailEx" class="form-control" name="email">
+                      <label for="materialFormContactEmailEx">Your email</label>
+                  </div>
+
+                  <!-- Material input subject -->
+                  <div class="md-form">
+                      <i class="fa fa-tag prefix grey-text"></i>
+                      <input type="text" id="materialFormContactSubjectEx" class="form-control" name="subject">
+                      <label for="materialFormContactSubjectEx">Subject</label>
+                  </div>
+
+                  <!-- Material textarea message -->
+                  <div class="md-form">
+                      <i class="fa fa-pencil prefix grey-text"></i>
+                      <textarea type="text" id="materialFormContactMessageEx" class="form-control md-textarea" rows="3" name="message"></textarea>
+                      <label for="materialFormContactMessageEx">Your message</label>
+                  </div>
+
+                  <div class="text-center mt-4">
+                      <button class="btn btn-outline-secondary waves-effect waves-light" id="sendbtn" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
+                  </div>
+              </form>
+              <!-- Material form contact -->
+
+            <!-- Grid column -->
+            <!-- Customise the Thankyou Message People See when they submit the form: -->
+            <div style="display:none;" id="thankyou_message">
+              <h2><em>Thanks</em> for contacting us!
+                We will get back to you soon!</h2>
+            </div>
+    </section>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
+    <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
